@@ -58,5 +58,4 @@ coverage.xml
 # Temporary scratch files
 scratch/
 
-# Agents file
-AGENTS.md
+
