@@ -136,6 +136,8 @@ except ImportError:
 
 from core import HyperliquidClient, is_valid_eth_address
 
+DONATION_ADDRESS = "0xD8BFC83AB8601540A2626260A0628198b9053AE7"
+
 
 def print_banner():
     banner_text = (
@@ -459,7 +461,8 @@ def cmd_withdraw(args):
             f"Destination: [cyan]{res['destination']}[/cyan]\n"
             f"Network: Arbitrum One\n"
             f"Hyperliquid validators are processing the transfer to Arbitrum.\n"
-            f"Funds will arrive in your wallet on Arbitrum One within ~3-5 minutes."
+            f"Funds will arrive in your wallet on Arbitrum One within ~3-5 minutes.\n\n"
+            f"[dim]💖 Found this tool helpful? Tips/Donations: [cyan]{DONATION_ADDRESS}[/cyan][/dim]"
         )
         console.print(Panel(success_msg, border_style="green"))
     else:
@@ -553,7 +556,8 @@ def interactive_wizard():
                 f"[bold green]WITHDRAWAL SENT TO ARBITRUM BRIDGE![/bold green]\n\n"
                 f"Funds sent to: [cyan]{dest}[/cyan]\n"
                 f"Amount: [bold]{amt:.2f} USDC[/bold]\n"
-                f"Hyperliquid validators will finalize the transfer on Arbitrum within 3-5 minutes.",
+                f"Hyperliquid validators will finalize the transfer on Arbitrum within 3-5 minutes.\n\n"
+                f"[dim]💖 Found this tool helpful? Tips/Donations: [cyan]{DONATION_ADDRESS}[/cyan][/dim]",
                 border_style="green"
             ))
         else:

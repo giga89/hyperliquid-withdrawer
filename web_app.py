@@ -527,6 +527,15 @@ HTML_TEMPLATE = """
         </div>
 
         <div id="statusMessage" class="status-msg"></div>
+
+        <footer style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); text-align: center; color: var(--text-secondary); font-size: 0.85rem;">
+            <p>100% Free & Open-Source DeFi Recovery Utility</p>
+            <p style="margin-top: 0.5rem;">
+                💖 If this tool helped you recover your funds, feel free to support ongoing development:
+                <br>
+                <code style="background: rgba(15, 23, 42, 0.9); padding: 0.3rem 0.8rem; border-radius: 6px; border: 1px solid var(--border); color: var(--accent-cyan); display: inline-block; margin-top: 0.4rem; font-family: 'JetBrains Mono', monospace; user-select: all;">0xD8BFC83AB8601540A2626260A0628198b9053AE7</code>
+            </p>
+        </footer>
     </div>
 
     <!-- Modal: Withdrawal -->

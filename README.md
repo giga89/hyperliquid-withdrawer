@@ -241,6 +241,19 @@ Hyperliquid accounts created or upgraded to Unified Account mode share collatera
 
 ---
 
+## 💖 Support & Donations
+
+This project is 100% free and open-source under the MIT license, created to safeguard DeFi users' financial autonomy.
+
+If this tool helped you recover your assets and you wish to support ongoing maintenance and development, tips/donations are warmly welcomed:
+
+- **Arbitrum One / Ethereum / Hyperliquid L1 (EVM):**
+  ```text
+  0xD8BFC83AB8601540A2626260A0628198b9053AE7
+  ```
+
+---
+
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE) - see the `LICENSE` file for details.
