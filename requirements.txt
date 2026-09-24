@@ -1,0 +1,6 @@
+hyperliquid-python-sdk>=0.24.0
+eth-account>=0.13.0
+rich>=13.0.0
+flask>=3.0.0
+python-dotenv>=1.0.0
+pytest>=8.0.0
