@@ -1,6 +1,6 @@
 # 🛡️ Hyperliquid Direct DeFi Withdrawer
 
-[![CI Tests](https://github.com/hyperliquid-dex/hyperliquid-withdrawer/actions/workflows/ci.yml/badge.svg)](https://github.com/)
+[![CI Tests](https://github.com/giga89/hyperliquid-withdrawer/actions/workflows/ci.yml/badge.svg)](https://github.com/giga89/hyperliquid-withdrawer/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Non-Custodial](https://img.shields.io/badge/Architecture-Non--Custodial-green.svg)](#security--privacy-guarantees)
@@ -50,7 +50,6 @@ hyperliquid-withdrawer/
 ├── .env.example              # Configuration template (optional defaults)
 ├── .gitignore                # Git ignore rules (prevents accidental key or cache commits)
 ├── LICENSE                   # MIT Open-Source License
-├── AGENTS.md                 # Agent guidelines and verification rules
 ├── .github/workflows/ci.yml  # Multi-version CI automated test workflow
 └── tests/                    # Comprehensive 30-test automated suite
     ├── test_validation.py    # Address validation & key sanitization tests
@@ -70,7 +69,7 @@ hyperliquid-withdrawer/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/hyperliquid-withdrawer.git
+git clone https://github.com/giga89/hyperliquid-withdrawer.git
 cd hyperliquid-withdrawer
 ```
 
